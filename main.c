@@ -4,6 +4,7 @@
 #include "ArrayEmployees.h"
 #include "Funciones.h"
 
+
 #define SIZE 1000 // se define SIZE para utilizar como tamaño del array employee que se declarara mas abajo
 int menu();
 int searchEmpty(eEmployee lista[],int tam);
@@ -50,7 +51,7 @@ int main()
 
             }
         case 4:
-            if(yaHayEmpleado(employee,SIZE))
+            if(addEmployee(employee,SIZE))
             {
                 sortEmployees(employee,SIZE,order) ; //se ordena los empleados y se muestra con sort y show employee
                 showEmployees(employee,SIZE);

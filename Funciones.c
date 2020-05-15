@@ -121,7 +121,7 @@ void function_continueYesOrNo(char msj[],char input[])
     {
         if(!function_getStringLetras(msj,input))
         {
-            printf("*** ERROR *** Debe ingresar la letra S o N");
+            printf("- ERROR - Debe ingresar la letra S o N");
             system("pause");
             system("cls");
         }

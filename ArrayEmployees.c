@@ -437,7 +437,7 @@ float totalSalary(eEmployee list[],int len)
     return acumSalary;
 }
 
-int yaHayEmpleado(eEmployee list[],int len)
+int Employee(eEmployee list[],int len)
 {
     int ret = 0;
     for(int i = 0; i < len;i++)
